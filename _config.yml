@@ -1,29 +1,3 @@
 name: Liesel Wäppen, One Two Go!
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-prose:
-  rooturl: '/'
-  siteurl: 'http://lieselwaeppen.github.io/'
-  relativeLinks: 'http://lieselwaeppen.github.io/links.jsonp'
-  media: 'media'
-  ignore:
-    - index.md
-    - _config.yml
-    - /_layouts
-    - /_includes
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "blog"
-      - name: "tags"
-        field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
-          options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
