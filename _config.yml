@@ -1,3 +1,7 @@
 name: Liesel Wäppen, One Two Go!
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+prose:
+  rooturl: '/'
+  siteurl: 'http://lieselwaeppen.github.io/'
+  relativeLinks: 'http://lieselwaeppen.github.io/links.jsonp'
