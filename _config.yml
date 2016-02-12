@@ -1,5 +1,4 @@
 name: Liesel Wäppen, One Two Go!
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-prose:
-  media: 'img'
+
