@@ -9,9 +9,6 @@ published: true
 tags: null
 ---
 
-![pic02.jpg]({{site.baseurl}}/_posts/pic02.jpg)
-![pic03.jpg]({{site.baseurl}}/_posts/pic03.jpg)
-
 Well. Finally got around to putting this old website together. 
 Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. 
 It actually is a lot easier than I thought it was going to be.
