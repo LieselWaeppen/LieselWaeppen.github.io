@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Liesel Wäppen, One, Two, Go!, Launches Site"
+title: "Liesel Wäppen, One, Two, Go!"
 subtitle: the brainpower to build
 date: "Tue Jun 10 2014 14:00:00 GMT+0200 (Mitteleuropäische Sommerzeit)"
 author: Start Bootstrap
@@ -8,6 +8,7 @@ img: /img/pic01.jpg
 published: true
 tags: "null"
 ---
+
 
 
 
