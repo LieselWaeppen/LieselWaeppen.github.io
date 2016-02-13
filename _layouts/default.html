@@ -18,7 +18,9 @@
 			{% include banner.html %}
 			{% include carousel.html %}
 			<!-- Main -->
-			{{ page.type | "default"  }}
+			{{ if (page.type == "index") }}
+			INDEX
+			{% endif %}
 			{{ content }}
 
 			{% include features.html %}
