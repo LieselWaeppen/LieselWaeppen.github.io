@@ -3,11 +3,12 @@ layout: post
 subtitle: ""
 date: "2016-02-13 10:05 +0100"
 author: Liesel Wäppen
-img: ""
+img: /img/pic10.jpg
 published: true
 tags: ""
 title: "Another-sixth-post-with-date"
 ---
+
 
 ## A New Post
 
