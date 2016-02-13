@@ -18,8 +18,8 @@
 			{% include banner.html %}
 			{% include carousel.html %}
 			<!-- Main -->
-			{{ if (page.type == "index") }}
-			INDEX
+			{% if page.type == 'index' %}
+			  Hello tobi or bob
 			{% endif %}
 			{{ content }}
 
