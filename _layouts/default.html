@@ -12,7 +12,11 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="/assets/css/main.css" />
 	</head>
+	{% if  page.type == 'index' %}
 	<body class="homepage">
+	{% else %}
+	<body class="no-sidebar">
+	{% endif %}
 		<div id="page-wrapper">
 			{% include header.html %}
 			<!-- Main -->
