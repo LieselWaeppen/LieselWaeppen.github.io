@@ -31,7 +31,7 @@ prose:
         field:
           element: "text"
           label: "Has this page been modified?"
-          placeholder: "YYYY-MM-DD"
+          placeholder: CURRENT_DATETIME
       - name: "author"
         field:
           element: "text"
