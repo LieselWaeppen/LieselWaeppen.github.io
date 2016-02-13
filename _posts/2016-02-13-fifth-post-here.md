@@ -1,7 +1,7 @@
 ---
 layout: post
 subtitle: ""
-date: ""
+date: 2016-02-13
 author: Liesel Wäppen
 img: /img/pic08.jpg
 published: true
