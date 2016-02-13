@@ -1,7 +1,7 @@
 ---
 layout: post
 subtitle: new topics
-date: ""
+date: 2016-02-13
 author: Liesel Wäppen
 img: /img/pic12.jpg
 published: true
