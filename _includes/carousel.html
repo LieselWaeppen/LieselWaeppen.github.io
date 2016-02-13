@@ -1,86 +1,14 @@
 <!-- Carousel -->
 <section class="carousel">
 	<div class="reel">
-
+		{% for post in site.posts %}
 		<article>
-			<a href="posts.html" class="image featured"><img src="img/pic01.jpg" alt="" /></a>
+			<a href="{{ post.url }}" class="image featured"><img src="{{ post.img }}" alt="" /></a>
 			<header>
-				<h3><a href="posts.html">erster Post</a></h3>
+				<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 			</header>
-			<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+			<p>{{ post.subtitle }}</p>
 		</article>
-
-		<article>
-			<a href="posts.html" class="image featured"><img src="img/pic02.jpg" alt="" /></a>
-			<header>
-				<h3><a href="posts.html">zweiter Post</a></h3>
-			</header>
-			<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
-		</article>
-
-		<article>
-			<a href="posts.html" class="image featured"><img src="img/pic03.jpg" alt="" /></a>
-			<header>
-				<h3><a href="posts.html">dritter Post</a></h3>
-			</header>
-			<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
-		</article>
-
-		<article>
-			<a href="posts.html" class="image featured"><img src="img/pic04.jpg" alt="" /></a>
-			<header>
-				<h3><a href="posts.html">vierter Post</a></h3>
-			</header>
-			<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
-		</article>
-
-		<article>
-			<a href="posts.html" class="image featured"><img src="img/pic05.jpg" alt="" /></a>
-			<header>
-				<h3><a href="posts.html">fünfter Post</a></h3>
-			</header>
-			<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
-		</article>
-
-		<article>
-			<a href="posts.html" class="image featured"><img src="img/pic01.jpg" alt="" /></a>
-			<header>
-				<h3><a href="posts.html">sechster Post</a></h3>
-			</header>
-			<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
-		</article>
-
-		<article>
-			<a href="posts.html" class="image featured"><img src="img/pic02.jpg" alt="" /></a>
-			<header>
-				<h3><a href="posts.html">siebter Post</a></h3>
-			</header>
-			<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
-		</article>
-
-		<article>
-			<a href="posts.html" class="image featured"><img src="img/pic03.jpg" alt="" /></a>
-			<header>
-				<h3><a href="posts.html">achter Post</a></h3>
-			</header>
-			<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
-		</article>
-
-		<article>
-			<a href="posts.html" class="image featured"><img src="img/pic04.jpg" alt="" /></a>
-			<header>
-				<h3><a href="posts.html">neunter Post</a></h3>
-			</header>
-			<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
-		</article>
-
-		<article>
-			<a href="posts.html" class="image featured"><img src="img/pic05.jpg" alt="" /></a>
-			<header>
-				<h3><a href="posts.html">zehnter Post</a></h3>
-			</header>
-			<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
-		</article>
-
+		{% endfor %}
 	</div>
 </section>
