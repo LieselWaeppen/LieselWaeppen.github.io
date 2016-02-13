@@ -4,7 +4,7 @@ title: "Überall dieselbe alte Leier. "
 subtitle: Das Layout ist fertig
 date: "Tue Jun 10 2014 14:00:00 GMT+0200 (Mitteleuropäische Sommerzeit)"
 author: Start Bootstrap
-img: /img/pic01.jpg
+img: /img/Buchstaben.jpg
 published: true
 tags: "null"
 ---
