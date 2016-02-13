@@ -2,11 +2,18 @@
 layout: default
 title: Liesel Wäppen's Blog
 ---
-	<h1>{{ page.title }}</h1>
-	<ul class="posts">
+{% for post in site.posts %}
+<div class="wrapper style2">
+	<article id="main" class="container special">
+		<a href="#" class="image featured"><img src="{{ post.img }}" alt="" /></a>
+		<header>
+			<h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+		</header>
 
-	  {% for post in site.posts %}
-	    <img src="{{ post.img }}"/>
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
+		<p>{{ post.date | date_to_string }} - {{ post.subtitle }}.</p>
+		<footer>
+			<a href="{{ post.url }}" class="button">Weiterlesen</a>
+		</footer>
+	</article>
+</div>
+{% endfor %}
