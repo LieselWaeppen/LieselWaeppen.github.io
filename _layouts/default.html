@@ -15,15 +15,16 @@
 	<body class="homepage">
 		<div id="page-wrapper">
 			{% include header.html %}
-			{% include banner.html %}
-			{% include carousel.html %}
 			<!-- Main -->
 			{% if page.type == 'index' %}
-			  Hello tobi or bob
+				{% include banner.html %}
+				{% include carousel.html %}
 			{% endif %}
 			{{ content }}
 
-			{% include features.html %}
+			{% if page.type == 'index' %}
+				{% include features.html %}
+			{% endif %}
 			
 			<!-- Footer -->
 			{% include footer.html %}
