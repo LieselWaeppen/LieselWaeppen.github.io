@@ -41,7 +41,7 @@ prose:
         field:
           element: "text"
           label: "Image"
-          placeholder: "/img/pic01.jpg"
+          value: "/img/pic01.jpg"
       - name: "published"
         field:
           label: "Published"
