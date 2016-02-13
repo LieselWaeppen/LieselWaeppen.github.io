@@ -18,6 +18,7 @@
 			{% include banner.html %}
 			{% include carousel.html %}
 			<!-- Main -->
+			{{ page.type | "default"  }}
 			{{ content }}
 
 			{% include features.html %}
