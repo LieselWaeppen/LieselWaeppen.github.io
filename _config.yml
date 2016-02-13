@@ -16,15 +16,40 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "blog"
+          value: "post"
+      - name: "title"
+        field:
+          label: "Title"
+          element: "text"
+          value: "An Awesome Headline!"
+      - name: "subtitle"
+        field:
+          element: "text"
+          label: "Subtitle"
+          placeholder: "Enter Post Subtitle"
+      - name: "date"
+        field:
+          element: "text"
+          label: "Has this page been modified?"
+          placeholder: "YYYY-MM-DD"
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+          value: "Liesel Wäppen"
+      - name: "img"
+        field:
+          element: "text"
+          label: "Image"
+          placeholder: "/img/pic01.jpg"
+      - name: "published"
+        field:
+          label: "Published"
+          element: "checkbox"
+          value: "true"
       - name: "tags"
         field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
-          options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
+          element: "text"
+          label: "Tags"
+          placeholder: "Enter tags, separated by spaces"
 
