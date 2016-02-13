@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Liesel Wäppen, One, Two, Go!, Launches Site"
-subtitle: because they lacked opposable thumbs and the brainpower to build a space program.
-date: 2014-06-10T12:00:00.000Z
+subtitle: the brainpower to build
+date: "Tue Jun 10 2014 14:00:00 GMT+0200 (Mitteleuropäische Sommerzeit)"
 author: Start Bootstrap
 img: /img/pic01.jpg
 published: true
-tags: 
-  - "null"
+tags: "null"
 ---
+
 
 
 Well. Finally got around to putting this old website together. 
