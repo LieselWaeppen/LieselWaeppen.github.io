@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Überall dieselbe alte Leier. "
-subtitle: Das Layout ist fertig
+subtitle: "Das Layout ist fertig, der Text lässt auf sich warten. "
 date: "Tue Jun 10 2014 14:00:00 GMT+0200 (Mitteleuropäische Sommerzeit)"
 author: Start Bootstrap
 img: /img/Buchstaben.jpg
